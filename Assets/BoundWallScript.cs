@@ -15,5 +15,7 @@ public class BoundWallScript : MonoBehaviour
         if(pos.y < minY) pos.y = minY;
         if(pos.y > maxY) pos.y = maxY;
         transform.position = pos;
+        Debug.Log(pos.x);
+        Debug.Log(pos.y);
     }
 }
